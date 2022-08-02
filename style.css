@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
+
+body {
+  font-family: 'Abril Fatface', cursive !important;
+padding: 0;
+margin: 0;
+font-family: 'Abril Fatface', cursive;
+    /* font-family: 'Roboto Slab', serif; */
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    border-style: ridge;
+    background-color: #13265C;
+    
+  }
+  #title{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    font-size: 300%;
+    text-align: center;
+}
+#survey-form{
+  border-style:dashed;
+  box-sizing:content-box;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 5px 70px;
+border-radius: 3rem;
+font-family: 'Abril Fatface', cursive;
+}
+#description{
+ font-weight: 10000000px;
+font-size: 150%;
+text-align: center;
+}
+
+#survey-form{
+  font-family: 'Abril Fatface', cursive;
+}
+input[type=submit] {
+  background-color: #cac9cc;
+  border: none;
+  color: #fff;
+  padding: 15px 250px;
+  text-decoration:dotted;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 20em; 
+  height: 2em;
+  color:#13265C ;
+  align-items: center;
+  font-size: 150%;
+  font-family: Georgia, 'Times New Roman', Times;
+  border-style:  solid double;
+  box-sizing: border-box;
+  border-radius: 100px;
+  text-align: center;
+}
+input[type=submit]:hover{
+  background-color:rgb(96, 93, 93) ;
+}
+input[type=text],input[type=email],input[type=number]{
+  padding:10px 170px ;
+  border: none;
+  border-bottom: 2px solid whitesmoke;
+  margin: 8px 0;
+  width: auto;
+}
+
+#dropdown{
+  padding: 5px 170px;
+  padding:10px 170px ;
+  border: none;
+  border-bottom: 2px solid whitesmoke;
+  margin: 8px 0;
+}
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#textarea{
+  padding: 5px 170px;
+  padding:10px 170px ;
+  border: none;
+  border-bottom: 2px solid whitesmoke;
+  margin: 8px 0;
+  resize: none;
+  border-radius: 5rem;
+  background-color: #cac9cc;
+  text-align: left;
+  
+}
+#answer1,#answer2,#answer3{
+  box-sizing: border-box;
+}
+#foot{
+bottom: 0;
+font-size: 25px;
+align-items: center;
+justify-content: center;
+position:relative;
+bottom: 0;
+float:right;
+display: flex;
+font-family: 'Abril Fatface', cursive;
+
+}
+#radioQuestion,#checklistQuestion{
+  border-style:solid;
+  height: 150px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+
+#radio1,#checklist1{
+  text-align: center;
+}
+
+label {
+  font-size: 12px;
+}
+
+#textAreaPara{
+  font-size: 20px;
+  font-family: 'Abril Fatface', cursive;
+}
+
+#checklistQ{
+  text-align: center;
+  border-style: none;
+  border: none;
+background-color: transparent;
+resize: none;
+outline:#13265C;
+font-size: 15px;
+background-color: #13265C;
+
+}
+@media (max-width: 600px) {
+  #survey-form{
+    border-radius: 25px;
+    margin: 0% 5% 5% 3%;
+    padding: 2% 4% 5% 3%;
+   
+   
+  }
+  
+}

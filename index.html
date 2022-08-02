@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <div>
+        <h1 id="title">freeCodeCamp Survey</h1>
+       
+        <form action="" id="survey-form">
+            <p id="description"> 
+                Let us know how we can improve 
+            </p>
+           <p>
+            <label for="first" id="name-label">
+                Name * 
+                <!-- <input type="text" id="name" required placeholder="Enter your name"> -->
+              </label> <br>
+           </p>
+           <input type="text" id="name" required placeholder="Enter your name">
+           <p>
+            <label for="email" id="email-label">
+                Email*
+                 <!-- <input type="email" id="email" required placeholder="Enter your email"> -->
+             </label>
+           </p>
+           <input type="email" id="email" required placeholder="Enter your email">
+           <p>
+            <label for="Age" id="age-label">
+                Age *
+                 <!-- <input type="number" id="age"min="0"  max="100000" required placeholder="Enter your age"> -->
+             </label>
+           </p>
+           <input type="number" id="age"  required placeholder="Enter your age">
+           <p id="quest">What do you do in tech *</p>
+           <select name="role" required id="dropdown" class="formControl">
+               <option value disabled selected >Select current role</option>
+               <option value="Senior dev">Senior Dev</option>
+               <option value="Junior Dev">Junior Dev</option>
+               <option value="New Bee ">New Bee</option>
+               <option value="Other">Other</option>
+           </select>
+       
+           <div id="radioQuestion">
+            <p id="radio1">Would you recommend freeCodeCamp?</p>
+            <div class="radioChoice">
+              <input type="radio" id="Yes" name="answer" value="Yes">
+              <label for="Yes">
+                Yes</label><br>
+              <input type="radio" id="No" name="answer" value="No">
+              <label for="No">No</label><br>
+              <input type="radio" id="Maybe" name="answer" value="Maybe">
+              <label for="Maybe">
+                Maybe</label>
+            </div>
+             
+           </div>
+           
+              <div id="checklistQuestion">
+                <p id="checklist1">
+                    
+                    <label for="quest" id="checklistQ">
+                        what do you mostly Enjoy About FCC ?
+                    </label> <br>
+                    <div id="checklistChoices">
+                    <label for="answer1" id="answer1">
+                        <input type="checkbox" name="answers">
+                        Challenges
+                    </label> <br>
+                    <label for="answer2" id="answer2">
+                        <input type="checkbox" name="answers">
+                        Projects
+    
+                    </label> <br>
+                    <label for="answer3" id="answer3">
+                        <input type="checkbox" name="answers">
+                        Community
+                    </label> </div>
+                 </p>
+              </div>
+            
+            <p id="textAreaPara">Please give your feedback if any .. <br>
+                <textarea name="textarea" id="textarea" cols="00" rows="0"></textarea>
+            </p>
+           
+
+              
+              <input type="submit" id="submit">
+        </form>
+         <footer id="foot">
+            @Copyrights belong to yusufTheDev
+         </footer>
+        
+    </div>
+    
+</body>
+</html>
